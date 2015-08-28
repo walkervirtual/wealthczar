@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wealthczar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed-inverse" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="glyphicon glyphicon-king " aria-hidden="true"></span>
+     </div>
+      <div><a class="navbar-brand" href="/">Wealth Czar</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1-inverse">
+      <ul class="nav navbar-nav">
+           <li><a href="/">Home</a></li>
+                 <li><a href="/dashboard">Dashboard</a></li>
+                          <li><a href="/financial_advisors">Financial Advisors</a></li>
+                             <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+     <div class = "nav navbar-right ">
+     <a href="/dashboard" class ="btn btn-success btn-md" style = "margin-top:10px;" type="submit">Get Started</a>
+      </div>  
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+  <%= yield %>
+
+  <div class="about">
+  <div class="container">
+    <div class="row">
+      <h2>How Wealth Czar Works</h2>
+      <div class="col-md-4">
+          <p>1. Input your information</p>
+            
+           <p> Tell us about yourself and your unique financial situation.</p>
+      </div><!-- end div .col-md-4 -->
+      <div class="col-md-4">
+        <p>2. Get Advice</p>
+         <p> We will compile your financial information and recommend powerful financial products tailored to your needs.</p>
+      </div><!-- end div .col-md-4 -->
+      <div class="col-md-4">
+        <p>3. Get Matched and Relax</p>
+          <p>You will be matched with or you will able to choose from our list of experienced and qualified financial advisors to take care of all your financial needs.</p>
+
+              <a href="/dashboard" class="btn btn-success btn-lg" type="submit">Get Started</a>
+
+      </div><!-- end div .col-md-4 -->
+    </div><!-- end div .row -->
+  </div><!-- end .container -->
+</div><!-- end .about -->
+
+
+</body>
+</html>
+

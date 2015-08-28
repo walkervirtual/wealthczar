@@ -1,0 +1,158 @@
+html *{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+
+.get-started{
+  background-color: #FFFFFF;
+  text-align: right;
+  height: 300px;
+  width: 100%;
+}
+
+/*.about{
+  background-color: #F5F5F5;
+  height: 300px;
+  width: 100%;
+}*/
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+}
+
+img 
+{
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+ /*background-image: url(WALL-STREET-BULL.jpg) no-repeat;*/
+  background: url(/assets/2461095922_0d7d414a3e_o.jpg) no-repeat;
+  margin-bottom: -20px;
+  padding: -75px;
+}
+
+img .skyline.jpg{
+ /* background-size:cover;*/
+  width: 100%;
+  z-index: 2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+ /*background-image: url(WALL-STREET-BULL.jpg) no-repeat;*/
+ background: url(/assets/skyline.jpg) no-repeat;
+
+}
+
+.carouselimage{
+ /* background-size:cover;*/
+  width: 100%;
+  z-index: 3;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+ /*background-image: url(WALL-STREET-BULL.jpg) no-repeat;*/
+ background: url(/assets/carouselimage.jpg) no-repeat;
+}
+
+nav {
+  margin-top: 0px;
+}
+
+#bgvid{
+  width: 100%;
+}
+.carousel{
+  color: black;
+}
+
+.glyphicon{
+  margin-top: 6px;
+  color: green;
+  font-size: 30px;
+  
+}
+
+
+.navbar-brand{
+  padding-left: 22px;
+  font-style: bold;
+  font-color: purple;
+}
+
+.submit {
+  
+  left: 50%;
+  position: absolute;
+  bottom: 20px;
+  width: 80px;
+  margin-left: -40px;
+  
+  
+}
+
+.myform-container {
+  z-index: 2;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px;
+  background: rgba(0,0,0, 0.75);
+
+}
+
+.myform-container input{
+  color: black;
+
+}
+
+
+.financial-district{
+  background-image: url(/assets/financial-district1.jpg);
+  background-size:cover;
+  width: 100%;
+  z-index: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  min-height: 680px;
+}
+
+
+.FinancialSummary p{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.FinancialSummary {
+  margin: auto;
+  padding-top: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+#bs-example-navbar-collapse-1-inverse{
+  background-color: #000;
+}
+
+.questions{
+
+  text-align: right;
+  margin-top: 15px;
+
+}
+
+
+
+

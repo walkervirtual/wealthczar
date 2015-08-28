@@ -1,0 +1,64 @@
+
+         <!-- Fixed navbar -->
+      
+
+   
+    <div class="myform-container">
+      <%= form_for @inquiry do |f| %>
+   
+        <div class = "financial" id = "help">
+         <label> What kind of financial help are you seeking?</label>
+         <div>
+         <input type = "radio" name = "inquiry[service]"  value = "Financial Advisor"> Financial Advisor
+         </div>
+          <input type = "radio" name = "inquiry[service]"  value = "Estate Planning"> Estate Planning
+          <div>
+          <input type = "radio" name =  "inquiry[service]" value = "CPA"> CPA/Tax Preparer/Accountant
+          </div>
+           <div>
+           <input type = "radio" name = "inquiry[service]" value = "Financial Advisor"> Bookkeeper
+           </div>
+
+           <div class = "age" id = "current_age">
+           <label>What is your current age?</label>
+           <input type = "number" name = "inquiry[age]" min = "18" max = "120">
+          </div>
+          <div class = "status" id = "relationship"></div>
+          <label> What situation best describe you?</label>
+         <div>
+          <input type = "radio" name = "inquiry[status]" value ="Single"> Single <br>
+          </div>
+         <div>
+        <input type = "radio" name = "inquiry[status]" value = "Single with dependents"> Single with dependents
+       </div>
+      <div>
+       <input type = "radio" name = "inquiry[status]" value = "Married"> Married
+      </div>
+         <div>
+       <input type = "radio" name = "inquiry[status]" value = "Married with dependents"> Married with dependents
+      </div>
+      <div class = "home" id="owner">
+      <label>Are you a home owner?</label>
+      <input type = "radio" name = "inquiry[home]" value = "yes"> Yes
+      <input type = "radio" name = "inquiry[home]" value = "No"> No
+    </div>
+    <div class ="job" id = "work">
+      <label>What is your current Occupation?</label>
+        <input type = "text" name = "inquiry[job]">
+    <div class = "salary" id = "money">
+        <label>What is your current after-tax income?
+          <input type = "number" name = "inquiry[salary]" min = "1" max = "120000000", placeholder="$">
+    </div>
+
+     <button class = "Submit"> Submit</button>
+
+  </form>
+  <% end %>
+  </div>
+
+
+
+
+
+
+  
