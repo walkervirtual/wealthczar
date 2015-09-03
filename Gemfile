@@ -32,6 +32,8 @@ gem 'paperclip', '~> 4.3.0'
 
 gem 'wicked'
 
+gem 'devise'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

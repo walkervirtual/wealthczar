@@ -1,3 +1,7 @@
-<div class = "Gallery of Financial Advisor">
-  <p>Gallery of Financial Advisors<p>
+<h1>New Financial_Advisor</h1>
 
+<% @Financial_Advisors.each do |finAd| %>
+  <%= finAd.name %>
+  <br>
+<% end %>
+<%= link_to 'Back', financial_advisors_path %>

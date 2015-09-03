@@ -17,13 +17,28 @@ class InquiriesController < ApplicationController
     render layout: 'splash'
   end
 
-  def edit
-  end
+  # def edit
+  #   @Financial_Advisors = FinancialAdvisor.all
+  # end
 
   private
 
   def inquiry_params
     params.require(:inquiry).permit(:service, :age, :status, :home, :job, :salary)
   end
-end  
+  
+  # def create
+  # @Financial_Advisors = Financial_Advisor.create( financial_advisor_params )
+  # end
+
+  # private
+
+  # # Use strong_parameters for attribute whitelisting
+  # # Be sure to update your create() and update() controller methods.
+
+  # def financial_advisor_params
+  # params.require(:Financial_Advisor).permit(:avatar)
+  # end
+end
+
 
