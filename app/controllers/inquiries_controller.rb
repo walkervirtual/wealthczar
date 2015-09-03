@@ -25,4 +25,5 @@ class InquiriesController < ApplicationController
   def inquiry_params
     params.require(:inquiry).permit(:service, :age, :status, :home, :job, :salary)
   end
-end
+end  
+
