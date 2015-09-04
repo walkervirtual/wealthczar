@@ -118,7 +118,7 @@ nav {
 
 .financial-district{
   background-image: url(/assets/financial-district1.jpg);
-  background-size:cover;
+  background-size:absolute;
   width: 100%;
   z-index: 1;
   background-attachment: fixed;
